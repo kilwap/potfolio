@@ -21,3 +21,12 @@ nav a{
     color: black;
     margin: auto 1rem;
 }
+#about-me{
+    display: flex;
+}
+h2{
+    margin-top: 0;
+}
+.project-description{
+    display: none;
+}
