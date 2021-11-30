@@ -6,10 +6,10 @@ let description2 = document.getElementById("description2");
 let description3 = document.getElementById("description3");
 
 function showmore1(){
-    if (description1.style.display == "none"){
-      description1.style.display = "block";
-   }else {
+    if (description1.style.display == "block"){
       description1.style.display = "none";
+   }else {
+      description1.style.display = "block";
    }  
 }
 

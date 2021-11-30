@@ -15,6 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between; 
+    background-color: white;
 }
 nav a{
     text-decoration: none;
@@ -23,10 +24,16 @@ nav a{
 }
 #about-me{
     display: flex;
-}
+    width: 60%;
+}   
 h2{
     margin-top: 0;
 }
-.project-description{
+#description1, #description2, #description3{
     display: none;
+}
+.project img{
+    width: 31.25rem;
+    height: auto;
+    border: 1px solid black ;
 }
