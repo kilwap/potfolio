@@ -37,3 +37,7 @@ h2{
     height: auto;
     border: 1px solid black ;
 }
+i{
+    font-size: 2rem;
+    margin: auto 0.5rem;
+}
