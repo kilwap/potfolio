@@ -2,13 +2,15 @@ html{
     font-size: 16px;
     font-family: sans-serif;
 }
-body{
+main{
     max-width: 62.5rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 header{
+    max-width: 62.5rem;
+    margin: 0 auto;
     position: sticky;
     top: 0;
     width: 100%;
@@ -29,15 +31,38 @@ nav a{
 h2{
     margin-top: 0;
 }
+
+.project-title:hover{
+    color: white;
+    background-color: black;
+}
 #description1, #description2, #description3{
     display: none;
 }
 .project img{
-    width: 31.25rem;
+    width: 60%;
     height: auto;
     border: 1px solid black ;
+}
+.project img:hover{
+    box-shadow: 5px 5px grey;
 }
 i{
     font-size: 2rem;
     margin: auto 0.5rem;
+}
+
+@media only screen and (max-width: 850px){
+    main{
+        width: 100%; 
+    }
+    #about-me{
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-me-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
