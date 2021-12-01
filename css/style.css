@@ -33,8 +33,7 @@ h2{
 }
 
 .project-title:hover{
-    color: white;
-    background-color: black;
+    text-shadow: 2px 2px 1px grey;
 }
 #description1, #description2, #description3{
     display: none;
